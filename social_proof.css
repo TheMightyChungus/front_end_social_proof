@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    min-width: 1400px;
+    width: 1400px;
+    height: 900px;
+    border-style: solid;
+    border-color: rgba(138, 134, 134, 0.1);
+    box-shadow: 3px 3px #8888;
+    background-color:white;  
+    display: flex; 
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.top{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+#headline h1{
+    color: hsl(300, 43%, 22%);
+    width: 90%;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+#headline p{
+    margin-top: 1%;
+    color: hsl(303, 10%, 53%);
+    line-height: 1.5;
+    width: 100%;
+}
+
+.bottom{
+    flex: 1;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+#headline{
+    width: 30%;
+    height: 25%;
+}
+
+#testimonial{
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+
+    margin-right: 15%;
+}
+
+.sub_test{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: hsl(300, 24%, 96%);
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+
+.sub_test2{
+    margin-left: 10%;
+}
+
+.sub_test3{
+    margin-left: 20%;
+}
+
+.sub_test img{
+    float: left;
+    align-self: center;
+
+}
+
+.sub_test p{
+    padding-left: 30%;
+}
+.bottom_test{
+    flex: 1;
+    display: flex;
+    gap: 3%;
+    
+}
+
+
+.bottom_internal{
+    flex: 1;
+    border-radius: 5%;
+    background-color: hsl(300, 43%, 22%);
+    height: 95%;
+    
+}
+
+.bottom_internal img{
+    border-radius: 40%;
+    margin-top: 10%;
+    margin-left: 10%;
+    float: left;
+    width: 15%;
+    
+}
+
+.name h4{
+    margin-top: 10%;
+    padding-left: 35%;
+    color: white;
+    font-weight: bold;
+}
+
+.verified p{
+    margin-top: 1%;
+    padding-left: 35%;
+    color:  hsl(333, 80%, 67%);
+    
+}
+
+.paragraph p{
+    margin-top: 10%;
+    padding-left: 10%;
+    width: 80%;
+    line-height: 1.5;
+    color: white;
+
+}
+
+.bottom_internal2{
+    margin-top: 2%;
+}
+
+.bottom_internal3{
+    margin-top: 4%;
+}
+
+.rating{
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+}
